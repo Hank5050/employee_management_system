@@ -177,7 +177,7 @@ async function viewEmployeesByManager() {
 
       type: "list",
       name: "managerId",
-      message: "Which employee do you want to see reports for?",
+      message: "Which employee would you like to see reports for?",
       choices: managerChoices
 
     }
@@ -190,7 +190,7 @@ async function viewEmployeesByManager() {
   console.log("\n");
 
   if (employees.length === 0) {
-    console.log("The selected employee has no direct reports");
+    console.log("The selected employee has no reports");
   } else {
     console.table(employees);
   }
@@ -214,7 +214,7 @@ async function removeEmployee() {
 
       type: "list",
       name: "employeeId",
-      message: "Which employee do you want to remove?",
+      message: "Which employee would you like to remove?",
       choices: employeeChoices
 
     }
@@ -263,7 +263,7 @@ async function updateEmployeeRole() {
 
       type: "list",
       name: "roleId",
-      message: "Which role do you want to assign to the employee?",
+      message: "Which role would you like to assign to the employee?",
       choices: roleChoices
 
     }
@@ -359,7 +359,7 @@ async function addRole() {
     {
 
       name: "salary",
-      message: "What is the salary of this role?"
+      message: "What is the salary for this role?"
 
     },
     {

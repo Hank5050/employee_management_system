@@ -29,7 +29,7 @@
   
   ## 👀 See it in action:
 
-  🎬 [Watch a Video Walkthrough!](assets/readme_generator_walkthrough.webm)
+  🎬 [Watch a Video Walkthrough!](assets/employee_management_walkthrough.mp4)
   
   
   ## 📃 License:
